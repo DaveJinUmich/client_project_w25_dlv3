@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Pantry</title>
+
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+            <img src="images/UMSI_signature_vertical_informal_allblue.png" 
+            width="150" 
+            height="200"
+            alt="UMSI Logo">   
+            <p></p>
+        <a href = "#main">Skip to Main Content</a>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "BSI_Advising.html">BSI Advising</a></li>
+                <li><a href = "CAPS.html">CAPS</a></li>
+                <li><a href = "Food_pantry.html" class="active">Food Pantry</a></li>
+            </ul>
+        </nav>
+        <h1>Food Pantry - Student Success Portal</h1>
+
+    </header>
+    <main id="main">
+        <section class="intro">
+            <h2>Welcome to the Maize and Blue Cupboard</h2>
+            <img src="images/how-to-shop-the-mbc-image-1.jpg" 
+            width="800" 
+            height="600"
+            alt="Food Pantry">
+            <p>The Maize and Blue Cupboard provides resources, support, and access to food for the University of Michigan community. We aim to reduce food insecurity and foster a healthier campus environment.</p>
+        </section>
+
+        <section class="hours-location">
+            <h2>Hours and Location</h2>
+            <p><strong>Address:</strong> 420 S State St, Ann Arbor, MI 48109</p>
+            <p><strong>Hours:</strong></p>
+            <ul>
+                <li>Monday - Friday: 10 AM - 6 PM</li>
+                <li>Saturday: 12 PM - 4 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </section>
+
+        <section class="how-to-access">
+            <h2>How to Access the Pantry</h2>
+            <figure>
+                <img src="images/17ws0eDoQCgBh54oasBY71Q-8.png" 
+                width="400" 
+                height="600"
+                alt="Student Browsing Pantry">
+                <figcaption> Feel free to stop by anytime during our operating hours!</figcaption>
+            </figure>
+            <p>Students, staff, and faculty can access the Maize and Blue Cupboard by presenting a valid MCard. No appointments are necessary.</p>
+        </section>
+
+        <section class="donations">
+            <h2>Donate to the Pantry</h2>
+            <p>We welcome donations of non-perishable food items, personal care products, and household supplies. Donation bins are located at the pantry entrance. Monetary donations can be made online through the <a href="https://give.umich.edu/food-pantry" target="_blank">official donation portal</a>.</p>
+        </section>
+
+        <section class="volunteer">
+            <h2>Volunteer Opportunities</h2>
+            <p>Join us in making a difference! Volunteers help with organizing donations, stocking shelves, and assisting visitors. Sign up online to become a volunteer and support the Maize and Blue Cupboard's mission.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Student Success Portal | <a href="https://studentlife.umich.edu/" target="_blank">Student Life</a> | &copy; <span id="currentYear"></span></p>
+        
+        <script>
+            document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+
+</html>
